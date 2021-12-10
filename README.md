@@ -14,8 +14,7 @@ This app uses:
 
 To run locally, run the following commands:
 * bundle install
-* rails install webpacker
-* rails install webpacker:react
+* bundle exec rails webpacker:install
 * rails db:create
 * rails db:migrate
 * rails s --binding=0.0.0.0
